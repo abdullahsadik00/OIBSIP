@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  background: #eaf6f6;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  position: relative;
+}
+.header {
+  height: auto;
+  width: 100%;
+  z-index: 999;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+}
+.logo {
+  margin: 0px 25px;
+}
+.navbar {
+  position: relative;
+  margin: 0 auto;
+  padding: 1.2rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar .logo a {
+  color: #45f0ac;
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+.navbar .menu-items {
+  display: flex;
+  list-style: none;
+}
+.menu-items li {
+  margin-right: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu-items li a {
+  color: #45f0ac;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+.menu-items li a:hover {
+  color: #228e92;
+}
+.container {
+  margin: 0 auto;
+  padding: 25px;
+  display: flex;
+  min-height: 100vh;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  z-index: 99;
+}
+.text-side {
+  flex: 0 1 720px;
+}
+.image-side {
+  flex: 0 1 550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+img {
+  width: 50%;
+}
+.title h1 {
+  font-size: 3rem;
+  color: #228e92;
+}
+.details p {
+  margin-top: 0.8rem;
+  font-size: 1.2rem;
+  color: #228e92;
+}
+.buttons {
+  display: flex;
+  margin-top: 1.8rem;
+  justify-content: start;
+}
+.buttons a {
+  flex: 0 1 auto;
+  color: #228e92;
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin-right: 1rem;
+  padding: 0.8rem 2.4rem;
+  background: #63faff;
+  border-radius: 2rem;
+}
+footer {
+  width: 100%;
+  border-top: 1px solid silver;
+}
+.end {
+  color: #228e92;
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-align: center;
+  padding: 1.6rem 0;
+}
